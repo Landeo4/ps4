@@ -1,4856 +1,1197 @@
-rra
-rra
 pb
--54
+47
 pb
--9
--54
-lit1 3, lit2 2, little -21, compare 1, chunk 1
-nb 59
-nb 59
-rra
-rra
-compare 1, little -21, len 1, lit1 1, lit2 0
-lit1 1, lit2 0 little -21
-lit1 1, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 2, little -21, compare 0, chunk 1
-len 2, lbnum -1, lanum -21
-je suis dans b2 negatif
+135
+47
+lit1 1, lit2 13, little 33, compare 0, chunk 195
+nb 33
+nb 33
+compare 0, little 33, len 1, lit1 -1, lit2 0
+lit1 -1, lit2 0 little 33
 pb
--21
--9
--54
-lit1 4, lit2 2, little -72, compare 1, chunk 1
-nb 48
+33
+135
+47
+lit1 11, lit2 13, little 123, compare 0, chunk 195
+nb 649
 je suis dans la nouvelle condition
-nb 48
+nb 649
 je suis dans la nouvelle condition
-rra
-rra
-compare 1, little -72, len 1, lit1 -1, lit2 0
-lit1 -1, lit2 0 little -72
-lit1 -1, lit2 0 
-cpt -54
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+compare 0, little 123, len 1, lit1 0, lit2 1
+lit1 0, lit2 1 little 123
+nb 123
+je suis dans la nouvelle condition
+reduct de a lit1 1, lit2 23, little 123, compare 0, chunk 195
+len 3, lbnum 1, lanum 123
+rb
+je suis dabs b2
+pb
+sb
+135
+123
+47
+33
+lit1 8, lit2 23, little 168, compare 0, chunk 195
+rr
+rr
+rr
+rr
+rr
+rr
+rr
+compare 0, little 168, len 2, lit1 0, lit2 -1
+lit1 0, lit2 -1 little 168
+rb
+pb
+168
+135
+123
+47
+33
+lit1 8, lit2 30, little 88, compare 0, chunk 195
+nb 781
+nb 781
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+compare 0, little 88, len 2, lit1 3, lit2 0
+lit1 3, lit2 0 little 88
+nb 88
+reduct de a lit1 1, lit2 37, little 88, compare 0, chunk 195
+len 5, lbnum 2, lanum 88
+rb
+rb
+je suis dabs b2
+pb
+sb
+123
+88
+47
+33
+168
+135
+lit1 1, lit2 37, little 23, compare 0, chunk 195
+nb 23
+nb 23
+compare 0, little 23, len 3, lit1 -1, lit2 0
+lit1 -1, lit2 0 little 23
 rrb
--54
--21
--9
-lit1 1, lit2 5, little -72, compare 0, chunk 1
-nb -72
-je suis dans la nouvelle condition
-nb -72
-je suis dans la nouvelle condition
-compare 0, little -72, len 1, lit1 -1, lit2 0
-lit1 -1, lit2 0 little -72
-lit1 -1, lit2 0 
-cpt -54
-pb
--72
--54
--21
--9
-lit1 5, lit2 5, little -97, compare 0, chunk 1
-nb 77
-je suis dans la nouvelle condition
-nb 77
-je suis dans la nouvelle condition
-ra
-ra
-ra
-ra
-compare 0, little -97, len 2, lit1 -1, lit2 0
-lit1 -1, lit2 0 little -97
-lit1 -1, lit2 0 
-cpt -72
-pb
--97
--72
--54
--21
--9
-lit1 1, lit2 5, little -7, compare 0, chunk 1
-compare 0, little -7, len 2, lit1 0, lit2 -1
-lit1 0, lit2 -1 little -7
-lit1 0, lit2 -1 
-nb -9, len 5, i 4
-salutpb
--7
--97
--72
--54
--21
--9
-lit1 1, lit2 5, little -41, compare 0, chunk 1
-nb -41
-nb -41
-compare 0, little -41, len 3, lit1 1, lit2 0
-lit1 1, lit2 0 little -41
-lit1 1, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 5, little -41, compare 0, chunk 1
-len 6, lbnum 4, lanum -41
 rrb
-rrb
-je suis dans b2 negatif
 pb
--41
--21
--9
--7
--97
--72
--54
-lit1 1, lit2 5, little -35, compare 0, chunk 1
-nb -35
+23
+168
+135
+123
+88
+47
+33
+lit1 2, lit2 37, little 90, compare 0, chunk 195
+nb 576
 je suis dans la nouvelle condition
-nb -35
-je suis dans la nouvelle condition
-compare 0, little -35, len 3, lit1 0, lit2 1
-lit1 0, lit2 1 little -35
-lit1 0, lit2 1 
-je suis dans bestplace
-reduct de a lit1 1, lit2 5, little -35, compare 0, chunk 1
-len 7, lbnum 1, lanum -35
-rb
-je suis dans b2 negatif
-pb
--35
--21
--9
--7
--97
--72
--54
--41
-lit1 2, lit2 5, little -32, compare 0, chunk 1
-nb 44
-je suis dans la nouvelle condition
-nb 44
+nb 576
 je suis dans la nouvelle condition
 ra
-compare 0, little -32, len 4, lit1 0, lit2 1
-lit1 0, lit2 1 little -32
-lit1 0, lit2 1 
-je suis dans bestplace
-reduct de a lit1 1, lit2 6, little -32, compare 0, chunk 1
-len 8, lbnum 1, lanum -32
+compare 0, little 90, len 3, lit1 0, lit2 1
+lit1 0, lit2 1 little 90
+nb 90
+je suis dans la nouvelle condition
+reduct de a lit1 1, lit2 38, little 90, compare 0, chunk 195
+len 7, lbnum 1, lanum 90
 rb
-je suis dans b2 negatif
+je suis dabs b2
 pb
--32
--21
--9
--7
--97
--72
--54
--41
--35
-lit1 2, lit2 6, little -8, compare 0, chunk 1
-nb 22
-je suis dans la nouvelle condition
-nb 22
-je suis dans la nouvelle condition
+sb
+168
+90
+135
+123
+88
+47
+33
+23
+lit1 2, lit2 38, little 28, compare 0, chunk 195
+nb 964
+nb 964
 ra
-compare 0, little -8, len 4, lit1 0, lit2 3
-lit1 0, lit2 3 little -8
-lit1 0, lit2 3 
-je suis dans bestplace
-reduct de a lit1 1, lit2 7, little -8, compare 0, chunk 1
-len 9, lbnum 3, lanum -8
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--8
--7
--97
--72
--54
--41
--35
--32
--21
--9
-lit1 1, lit2 7, little -68, compare 0, chunk 1
-nb -68
-je suis dans la nouvelle condition
-nb -68
-je suis dans la nouvelle condition
-compare 0, little -68, len 5, lit1 2, lit2 0
-lit1 2, lit2 0 little -68
-lit1 2, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 7, little -68, compare 0, chunk 1
-len 10, lbnum 4, lanum -68
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--68
--54
--41
--35
--32
--21
--9
--8
--7
--97
--72
-lit1 1, lit2 7, little -78, compare 0, chunk 1
-nb -78
-je suis dans la nouvelle condition
-nb -78
-je suis dans la nouvelle condition
-compare 0, little -78, len 5, lit1 9, lit2 0
-lit1 9, lit2 0 little -78
-lit1 9, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 7, little -78, compare 0, chunk 1
-len 11, lbnum 10, lanum -78
-rrb
-je suis dans b2 negatif
-pb
--78
--72
--68
--54
--41
--35
--32
--21
--9
--8
--7
--97
-lit1 1, lit2 7, little -94, compare 0, chunk 1
-nb -94
-je suis dans la nouvelle condition
-nb -94
-je suis dans la nouvelle condition
-compare 0, little -94, len 6, lit1 11, lit2 0
-lit1 11, lit2 0 little -94
-lit1 11, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 7, little -94, compare 0, chunk 1
-len 12, lbnum -1, lanum -94
-je suis dans b2 negatif
-pb
--94
--78
--72
--68
--54
--41
--35
--32
--21
--9
--8
--7
--97
-lit1 3, lit2 7, little -96, compare 0, chunk 1
-nb 72
-je suis dans la nouvelle condition
-nb 72
-je suis dans la nouvelle condition
-ra
-ra
-compare 0, little -96, len 6, lit1 12, lit2 0
-lit1 12, lit2 0 little -96
-lit1 12, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 9, little -96, compare 0, chunk 1
-len 13, lbnum -1, lanum -96
-je suis dans b2 negatif
-pb
--96
--94
--78
--72
--68
--54
--41
--35
--32
--21
--9
--8
--7
--97
-lit1 4, lit2 9, little -67, compare 0, chunk 1
-nb 42
-je suis dans la nouvelle condition
-nb 42
-je suis dans la nouvelle condition
-ra
-ra
-ra
-compare 0, little -67, len 7, lit1 0, lit2 5
-lit1 0, lit2 5 little -67
-lit1 0, lit2 5 
-je suis dans bestplace
-reduct de a lit1 1, lit2 12, little -67, compare 0, chunk 1
-len 14, lbnum 5, lanum -67
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--67
--54
--41
--35
--32
--21
--9
--8
--7
--97
--96
--94
--78
--72
--68
-lit1 4, lit2 12, little -14, compare 0, chunk 1
+compare 0, little 28, len 4, lit1 7, lit2 0
+lit1 7, lit2 0 little 28
 nb 28
-je suis dans la nouvelle condition
-nb 28
-je suis dans la nouvelle condition
-ra
-ra
-ra
-compare 0, little -14, len 7, lit1 0, lit2 6
-lit1 0, lit2 6 little -14
-lit1 0, lit2 6 
-je suis dans bestplace
-reduct de a lit1 1, lit2 15, little -14, compare 0, chunk 1
-len 15, lbnum 6, lanum -14
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
+reduct de a lit1 1, lit2 39, little 28, compare 0, chunk 195
+len 8, lbnum 6, lanum 28
+rrb
+rrb
+je suis dabs b2
 pb
--14
--9
--8
--7
--97
--96
--94
--78
--72
--68
--67
--54
--41
--35
--32
--21
-lit1 1, lit2 15, little -29, compare 0, chunk 1
-nb -29
-je suis dans la nouvelle condition
-nb -29
-je suis dans la nouvelle condition
-compare 0, little -29, len 8, lit1 4, lit2 0
-lit1 4, lit2 0 little -29
-lit1 4, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 15, little -29, compare 0, chunk 1
-len 16, lbnum 15, lanum -29
+sb
+33
+28
+23
+168
+90
+135
+123
+88
+47
+lit1 1, lit2 39, little 56, compare 0, chunk 195
+nb 56
+nb 56
+compare 0, little 56, len 4, lit1 0, lit2 3
+lit1 0, lit2 3 little 56
+nb 56
+reduct de a lit1 1, lit2 39, little 56, compare 0, chunk 195
+len 9, lbnum 7, lanum 56
 rrb
-je suis dans b2 negatif
+rrb
+je suis dabs b2
 pb
--29
--21
--14
--9
--8
--7
--97
--96
--94
--78
--72
--68
--67
--54
--41
--35
--32
-lit1 4, lit2 15, little -80, compare 0, chunk 1
-nb 99
+sb
+88
+56
+47
+33
+28
+23
+168
+90
+135
+123
+lit1 6, lit2 39, little 25, compare 0, chunk 195
+nb 754
+nb 754
+ra
+ra
+ra
+ra
+ra
+compare 0, little 25, len 5, lit1 5, lit2 0
+lit1 5, lit2 0 little 25
+nb 25
+reduct de a lit1 1, lit2 44, little 25, compare 0, chunk 195
+len 10, lbnum 4, lanum 25
+rb
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+28
+25
+23
+168
+90
+135
+123
+88
+56
+47
+33
+lit1 3, lit2 44, little 9, compare 0, chunk 195
+nb 774
+nb 774
+ra
+ra
+compare 0, little 9, len 5, lit1 -1, lit2 0
+lit1 -1, lit2 0 little 9
+rb
+rb
+rb
+pb
+9
+168
+90
+135
+123
+88
+56
+47
+33
+28
+25
+23
+lit1 4, lit2 52, little 115, compare 0, chunk 195
+nb 948
 je suis dans la nouvelle condition
-nb 99
+nb 948
 je suis dans la nouvelle condition
 ra
 ra
 ra
-compare 0, little -80, len 8, lit1 6, lit2 0
-lit1 6, lit2 0 little -80
-lit1 6, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 18, little -80, compare 0, chunk 1
-len 17, lbnum 9, lanum -80
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
+compare 0, little 115, len 6, lit1 0, lit2 1
+lit1 0, lit2 1 little 115
+nb 115
+je suis dans la nouvelle condition
+reduct de a lit1 1, lit2 52, little 115, compare 0, chunk 195
+len 12, lbnum 1, lanum 115
+rb
+je suis dabs b2
 pb
--80
--78
--72
--68
--67
--54
--41
--35
--32
--29
--21
--14
--9
--8
--7
--97
--96
--94
-lit1 4, lit2 18, little -43, compare 0, chunk 1
-nb 26
-je suis dans la nouvelle condition
-nb 26
-je suis dans la nouvelle condition
+sb
+168
+115
+90
+135
+123
+88
+56
+47
+33
+28
+25
+23
+9
+lit1 1, lit2 52, little 167, compare 0, chunk 195
+nb 167
+nb 167
+compare 0, little 167, len 6, lit1 1, lit2 0
+lit1 1, lit2 0 little 167
+nb 167
+reduct de a lit1 1, lit2 52, little 167, compare 0, chunk 195
+len 13, lbnum 0, lanum 167
+je suis dabs b2
+pb
+sb
+168
+167
+115
+90
+135
+123
+88
+56
+47
+33
+28
+25
+23
+9
+lit1 11, lit2 51, little 187, compare 0, chunk 195
+rr
+rr
+rr
+rr
+rr
+rr
+rr
+rr
+rr
+rr
+compare 0, little 187, len 7, lit1 0, lit2 -1
+lit1 0, lit2 -1 little 187
+rb
+rb
+rb
+rb
+pb
+187
+168
+167
+115
+90
+135
+123
+88
+56
+47
+33
+28
+25
+23
+9
+lit1 2, lit2 51, little 36, compare 0, chunk 195
+nb 427
+nb 427
 ra
-ra
-ra
-compare 0, little -43, len 9, lit1 0, lit2 6
-lit1 0, lit2 6 little -43
-lit1 0, lit2 6 
-je suis dans bestplace
-reduct de a lit1 1, lit2 21, little -43, compare 0, chunk 1
-len 18, lbnum 6, lanum -43
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--43
--41
--35
--32
--29
--21
--14
--9
--8
--7
--97
--96
--94
--80
--78
--72
--68
--67
--54
-lit1 1, lit2 21, little -82, compare 0, chunk 2
-nb -82
-je suis dans la nouvelle condition
-nb -82
-je suis dans la nouvelle condition
-compare 0, little -82, len 9, lit1 10, lit2 0
-lit1 10, lit2 0 little -82
-lit1 10, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 21, little -82, compare 0, chunk 2
-len 19, lbnum 13, lanum -82
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--82
--80
--78
--72
--68
--67
--54
--43
--41
--35
--32
--29
--21
--14
--9
--8
--7
--97
--96
--94
-lit1 1, lit2 21, little -92, compare 0, chunk 2
-nb -92
-je suis dans la nouvelle condition
-nb -92
-je suis dans la nouvelle condition
-compare 0, little -92, len 10, lit1 17, lit2 0
-lit1 17, lit2 0 little -92
-lit1 17, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 21, little -92, compare 0, chunk 2
-len 20, lbnum -1, lanum -92
-je suis dans b2 negatif
-pb
--92
--82
--80
--78
--72
--68
--67
--54
--43
--41
--35
--32
--29
--21
--14
--9
--8
--7
--97
--96
--94
-lit1 1, lit2 21, little -66, compare 0, chunk 2
-nb -66
-je suis dans la nouvelle condition
-nb -66
-je suis dans la nouvelle condition
-compare 0, little -66, len 10, lit1 0, lit2 7
-lit1 0, lit2 7 little -66
-lit1 0, lit2 7 
-je suis dans bestplace
-reduct de a lit1 1, lit2 21, little -66, compare 0, chunk 2
-len 21, lbnum 7, lanum -66
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--66
--54
--43
--41
--35
--32
--29
--21
--14
--9
--8
--7
--97
--96
--94
--92
--82
--80
--78
--72
--68
--67
-lit1 4, lit2 21, little -28, compare 0, chunk 2
+compare 0, little 36, len 7, lit1 10, lit2 0
+lit1 10, lit2 0 little 36
 nb 36
-je suis dans la nouvelle condition
-nb 36
-je suis dans la nouvelle condition
-ra
-ra
-ra
-compare 0, little -28, len 11, lit1 0, lit2 7
-lit1 0, lit2 7 little -28
-lit1 0, lit2 7 
-je suis dans bestplace
-reduct de a lit1 1, lit2 24, little -28, compare 0, chunk 2
-len 22, lbnum 7, lanum -28
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
+reduct de a lit1 1, lit2 51, little 36, compare 0, chunk 195
+len 15, lbnum 9, lanum 36
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+je suis dabs b2
 pb
--28
--21
--14
--9
--8
--7
--97
--96
--94
--92
--82
--80
--78
--72
--68
--67
--66
--54
--43
--41
--35
--32
--29
-lit1 6, lit2 24, little -86, compare 0, chunk 2
-nb 11
-je suis dans la nouvelle condition
-nb 11
-je suis dans la nouvelle condition
+sb
+47
+36
+33
+28
+25
+23
+9
+187
+168
+167
+115
+90
+135
+123
+88
+56
+lit1 2, lit2 50, little 92, compare 0, chunk 195
+nb 220
+nb 220
 ra
-ra
-ra
-ra
-ra
-compare 0, little -86, len 11, lit1 6, lit2 0
-lit1 6, lit2 0 little -86
-lit1 6, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 29, little -86, compare 0, chunk 2
-len 23, lbnum 10, lanum -86
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--86
--82
--80
--78
--72
--68
--67
--66
--54
--43
--41
--35
--32
--29
--28
--21
--14
--9
--8
--7
--97
--96
--94
--92
-lit1 1, lit2 29, little -46, compare 0, chunk 2
-nb -46
-je suis dans la nouvelle condition
-nb -46
-je suis dans la nouvelle condition
-compare 0, little -46, len 12, lit1 0, lit2 9
-lit1 0, lit2 9 little -46
-lit1 0, lit2 9 
-je suis dans bestplace
-reduct de a lit1 1, lit2 29, little -46, compare 0, chunk 2
-len 24, lbnum 9, lanum -46
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--46
--43
--41
--35
--32
--29
--28
--21
--14
--9
--8
--7
--97
--96
--94
--92
--86
--82
--80
--78
--72
--68
--67
--66
--54
-lit1 5, lit2 29, little -77, compare 0, chunk 2
-nb 68
-je suis dans la nouvelle condition
-nb 68
-je suis dans la nouvelle condition
-ra
-ra
-ra
-ra
-compare 0, little -77, len 12, lit1 12, lit2 0
-lit1 12, lit2 0 little -77
-lit1 12, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 33, little -77, compare 0, chunk 2
-len 25, lbnum 20, lanum -77
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--77
--72
--68
--67
--66
--54
--46
--43
--41
--35
--32
--29
--28
--21
--14
--9
--8
--7
--97
--96
--94
--92
--86
--82
--80
--78
-lit1 2, lit2 33, little -12, compare 0, chunk 2
-nb 37
-je suis dans la nouvelle condition
-nb 37
-je suis dans la nouvelle condition
-ra
-compare 0, little -12, len 13, lit1 0, lit2 15
-lit1 0, lit2 15 little -12
-lit1 0, lit2 15 
-je suis dans bestplace
-reduct de a lit1 1, lit2 34, little -12, compare 0, chunk 2
-len 26, lbnum 15, lanum -12
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--12
--9
--8
--7
--97
--96
--94
--92
--86
--82
--80
--78
--77
--72
--68
--67
--66
--54
--46
--43
--41
--35
--32
--29
--28
--21
--14
-lit1 2, lit2 34, little -19, compare 0, chunk 2
-nb 76
-je suis dans la nouvelle condition
-nb 76
-je suis dans la nouvelle condition
-ra
-compare 0, little -19, len 13, lit1 4, lit2 0
-lit1 4, lit2 0 little -19
-lit1 4, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 35, little -19, compare 0, chunk 2
-len 27, lbnum 26, lanum -19
-rrb
-je suis dans b2 negatif
-pb
--19
--14
--12
--9
--8
--7
--97
--96
--94
--92
--86
--82
--80
--78
--77
--72
--68
--67
--66
--54
--46
--43
--41
--35
--32
--29
--28
--21
-lit1 3, lit2 35, little -75, compare 0, chunk 2
+compare 0, little 92, len 8, lit1 0, lit2 7
+lit1 0, lit2 7 little 92
 nb 92
-je suis dans la nouvelle condition
-nb 92
-je suis dans la nouvelle condition
-ra
-ra
-compare 0, little -75, len 14, lit1 6, lit2 0
-lit1 6, lit2 0 little -75
-lit1 6, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 37, little -75, compare 0, chunk 2
-len 28, lbnum 15, lanum -75
+reduct de a lit1 1, lit2 50, little 92, compare 0, chunk 195
+len 16, lbnum 10, lanum 92
 rrb
 rrb
 rrb
 rrb
 rrb
 rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--75
--72
--68
--67
--66
--54
--46
--43
--41
--35
--32
--29
--28
--21
--19
--14
--12
--9
--8
--7
--97
--96
--94
--92
--86
--82
--80
--78
--77
-lit1 2, lit2 37, little -16, compare 0, chunk 2
-nb 49
-je suis dans la nouvelle condition
-nb 49
-je suis dans la nouvelle condition
-ra
-compare 0, little -16, len 14, lit1 0, lit2 15
-lit1 0, lit2 15 little -16
-lit1 0, lit2 15 
-je suis dans bestplace
-reduct de a lit1 1, lit2 43, little -16, compare 0, chunk 2
-len 29, lbnum 15, lanum -16
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--16
--14
--12
--9
--8
--7
--97
--96
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--54
--46
--43
--41
--35
--32
--29
--28
--21
--19
-lit1 2, lit2 42, little -60, compare 0, chunk 2
-nb 54
-je suis dans la nouvelle condition
-nb 54
-je suis dans la nouvelle condition
-ra
-compare 0, little -60, len 15, lit1 6, lit2 0
-lit1 6, lit2 0 little -60
-lit1 6, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 42, little -60, compare 0, chunk 2
-len 30, lbnum 20, lanum -60
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--60
--54
--46
--43
--41
--35
--32
--29
--28
--21
--19
--16
--14
--12
--9
--8
--7
--97
--96
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
-lit1 2, lit2 41, little -31, compare 0, chunk 2
-nb 61
-je suis dans la nouvelle condition
-nb 61
-je suis dans la nouvelle condition
-ra
-compare 0, little -31, len 15, lit1 0, lit2 7
-lit1 0, lit2 7 little -31
-lit1 0, lit2 7 
-je suis dans bestplace
-reduct de a lit1 1, lit2 41, little -31, compare 0, chunk 2
-len 31, lbnum 7, lanum -31
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--31
--29
--28
--21
--19
--16
--14
--12
--9
--8
--7
--97
--96
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
--46
--43
--41
--35
--32
-lit1 1, lit2 40, little -48, compare 0, chunk 2
-nb -48
-je suis dans la nouvelle condition
-nb -48
-je suis dans la nouvelle condition
-compare 0, little -48, len 16, lit1 11, lit2 0
-lit1 11, lit2 0 little -48
-lit1 11, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 40, little -48, compare 0, chunk 2
-len 32, lbnum 27, lanum -48
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--48
--46
--43
--41
--35
--32
--31
--29
--28
--21
--19
--16
--14
--12
--9
--8
--7
--97
--96
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
-lit1 1, lit2 40, little -3, compare 0, chunk 2
-compare 0, little -3, len 16, lit1 0, lit2 -1
-lit1 0, lit2 -1 little -3
-lit1 0, lit2 -1 
-nb -7, len 33, i 16
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-salutpb
--3
--97
--96
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
--48
--46
--43
--41
--35
--32
--31
--29
--28
--21
--19
--16
--14
--12
--9
--8
--7
-lit1 5, lit2 39, little -24, compare 0, chunk 2
-nb 66
-nb 66
-ra
-ra
-ra
-ra
-compare 0, little -24, len 17, lit1 1, lit2 0
-lit1 1, lit2 0 little -24
-lit1 1, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 39, little -24, compare 0, chunk 2
-len 34, lbnum 26, lanum -24
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--24
--21
--19
--16
--14
--12
--9
--8
--7
--3
--97
--96
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
--48
--46
--43
--41
--35
--32
--31
--29
--28
-lit1 1, lit2 39, little -100, compare 0, chunk 2
-nb -100
-je suis dans la nouvelle condition
-nb -100
-je suis dans la nouvelle condition
-compare 0, little -100, len 17, lit1 -1, lit2 0
-lit1 -1, lit2 0 little -100
-lit1 -1, lit2 0 
-cpt -97
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pb
--100
--97
--96
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
--48
--46
--43
--41
--35
--32
--31
--29
--28
--24
--21
--19
--16
--14
--12
--9
--8
--7
--3
-lit1 1, lit2 38, little -10, compare 0, chunk 2
-nb -10
-je suis dans la nouvelle condition
-nb -10
-je suis dans la nouvelle condition
-compare 0, little -10, len 18, lit1 0, lit2 32
-lit1 0, lit2 32 little -10
-lit1 0, lit2 32 
-je suis dans bestplace
-reduct de a lit1 1, lit2 38, little -10, compare 0, chunk 2
-len 36, lbnum 32, lanum -10
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--10
--9
--8
--7
--3
--100
--97
--96
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
--48
--46
--43
--41
--35
--32
--31
--29
--28
--24
--21
--19
--16
--14
--12
-lit1 2, lit2 38, little -95, compare 0, chunk 2
-nb 51
-je suis dans la nouvelle condition
-nb 51
-je suis dans la nouvelle condition
-ra
-compare 0, little -95, len 18, lit1 5, lit2 0
-lit1 5, lit2 0 little -95
-lit1 5, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 38, little -95, compare 0, chunk 2
-len 37, lbnum 8, lanum -95
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--95
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
--48
--46
--43
--41
--35
--32
--31
--29
--28
--24
--21
--19
--16
--14
--12
--10
--9
--8
--7
--3
--100
--97
--96
-lit1 1, lit2 37, little -51, compare 0, chunk 2
-nb -51
-je suis dans la nouvelle condition
-nb -51
-je suis dans la nouvelle condition
-compare 0, little -51, len 19, lit1 0, lit2 15
-lit1 0, lit2 15 little -51
-lit1 0, lit2 15 
-je suis dans bestplace
-reduct de a lit1 1, lit2 37, little -51, compare 0, chunk 2
-len 38, lbnum 15, lanum -51
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--51
--48
--46
--43
--41
--35
--32
--31
--29
--28
--24
--21
--19
--16
--14
--12
--10
--9
--8
--7
--3
--100
--97
--96
--95
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
-lit1 1, lit2 37, little -25, compare 0, chunk 3
-nb -25
-je suis dans la nouvelle condition
-nb -25
-je suis dans la nouvelle condition
-compare 0, little -25, len 19, lit1 0, lit2 10
-lit1 0, lit2 10 little -25
-lit1 0, lit2 10 
-je suis dans bestplace
-reduct de a lit1 1, lit2 37, little -25, compare 0, chunk 3
-len 39, lbnum 10, lanum -25
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--25
--24
--21
--19
--16
--14
--12
--10
--9
--8
--7
--3
--100
--97
--96
--95
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
--51
--48
--46
--43
--41
--35
--32
--31
--29
--28
-lit1 1, lit2 36, little -18, compare 0, chunk 3
-nb -18
-je suis dans la nouvelle condition
-nb -18
-je suis dans la nouvelle condition
-compare 0, little -18, len 20, lit1 0, lit2 4
-lit1 0, lit2 4 little -18
-lit1 0, lit2 4 
-je suis dans bestplace
-reduct de a lit1 1, lit2 36, little -18, compare 0, chunk 3
-len 40, lbnum 4, lanum -18
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--18
--16
--14
--12
--10
--9
--8
--7
--3
--100
--97
--96
--95
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
--51
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--19
-lit1 4, lit2 35, little -20, compare 0, chunk 3
-nb 58
-je suis dans la nouvelle condition
-nb 58
-je suis dans la nouvelle condition
-ra
-ra
-ra
-compare 0, little -20, len 20, lit1 9, lit2 0
-lit1 9, lit2 0 little -20
-lit1 9, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 35, little -20, compare 0, chunk 3
-len 41, lbnum 40, lanum -20
-rrb
-je suis dans b2 negatif
-pb
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--100
--97
--96
--95
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
--51
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
-lit1 1, lit2 34, little -50, compare 0, chunk 3
-nb -50
-je suis dans la nouvelle condition
-nb -50
-je suis dans la nouvelle condition
-compare 0, little -50, len 21, lit1 11, lit2 0
-lit1 11, lit2 0 little -50
-lit1 11, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 34, little -50, compare 0, chunk 3
-len 42, lbnum 30, lanum -50
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--50
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--100
--97
--96
--95
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--60
--54
--51
-lit1 1, lit2 34, little -61, compare 0, chunk 3
-nb -61
-je suis dans la nouvelle condition
-nb -61
-je suis dans la nouvelle condition
-compare 0, little -61, len 21, lit1 24, lit2 0
-lit1 24, lit2 0 little -61
-lit1 24, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 34, little -61, compare 0, chunk 3
-len 43, lbnum 40, lanum -61
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--61
--60
--54
--51
--50
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--100
--97
--96
--95
--94
--92
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
-lit1 2, lit2 33, little -91, compare 0, chunk 3
-nb 100
-je suis dans la nouvelle condition
-nb 100
-je suis dans la nouvelle condition
-ra
-compare 0, little -91, len 22, lit1 28, lit2 0
-lit1 28, lit2 0 little -91
-lit1 28, lit2 0 
-je suis dans bestplace
-reduct de a lit1 1, lit2 33, little -91, compare 0, chunk 3
-len 44, lbnum 34, lanum -91
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dans b2 negatif
-pb
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--100
--97
--96
--95
--94
--92
-lit1 3, lit2 33, little -49, compare 0, chunk 3
-nb 20
-je suis dans la nouvelle condition
-nb 20
-je suis dans la nouvelle condition
-ra
-ra
-compare 0, little -49, len 22, lit1 0, lit2 16
-lit1 0, lit2 16 little -49
-lit1 0, lit2 16 
-je suis dans bestplace
-reduct de a lit1 1, lit2 33, little -49, compare 0, chunk 3
-len 45, lbnum 16, lanum -49
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-je suis dans b2 negatif
-pb
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
-lit1 4, lit2 32, little -1, compare 0, chunk 3
-ra
-ra
-ra
-compare 0, little -1, len 23, lit1 0, lit2 -1
-lit1 0, lit2 -1 little -1
-lit1 0, lit2 -1 
-nb -3, len 46, i 23
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-salutpb
--1
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
-lit1 -1, lit2 32, little 9, compare 1, chunk 3
-little 77
-lit1 0, lit2 -1 little 77
-rb
-pb
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-lit1 -1, lit2 31, little 38, compare 1, chunk 3
-little 48
-lit1 1, lit2 0 little 48
-nb 48
-reduct de a lit1 -1, lit2 31, little 38, compare 1, chunk 3
-len 48, lbnum 0, lanum -1
 je suis dabs b2
 pb
-48
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-lit1 -1, lit2 31, little 38, compare 1, chunk 3
-little 59
-lit1 0, lit2 1 little 59
-nb 59
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 31, little 38, compare 1, chunk 3
-len 49, lbnum 1, lanum -1
-rr
-je suis dabs b2
-pb
-30
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-lit1 -1, lit2 30, little 12, compare 1, chunk 3
-little 44
-lit1 0, lit2 1 little 44
-nb 44
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 30, little 12, compare 1, chunk 3
-len 50, lbnum 1, lanum -1
-rr
-je suis dabs b2
-pb
-22
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-lit1 -1, lit2 29, little 15, compare 1, chunk 3
-little 72
-lit1 0, lit2 1 little 72
-nb 72
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 29, little 15, compare 1, chunk 3
-len 51, lbnum 1, lanum -1
-rr
-je suis dabs b2
-pb
-10
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-22
-lit1 -1, lit2 28, little 68, compare 1, chunk 3
-little 42
-lit1 0, lit2 1 little 42
-nb 42
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 28, little 68, compare 1, chunk 3
-len 52, lbnum 1, lanum -1
-rr
-je suis dabs b2
-pb
+sb
+115
+92
 90
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-22
-10
-lit1 -1, lit2 28, little 86, compare 1, chunk 3
-little 64
-lit1 2, lit2 0 little 64
-nb 64
-reduct de a lit1 -1, lit2 28, little 86, compare 1, chunk 3
-len 53, lbnum 1, lanum -1
-rr
-je suis dabs b2
-pb
+135
+123
+88
+56
+47
+36
+33
 28
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-22
-10
-90
-lit1 -1, lit2 27, little 45, compare 1, chunk 3
-little 80
-lit1 0, lit2 53 little 80
-nb 80
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 27, little 45, compare 1, chunk 3
-len 54, lbnum 53, lanum -1
-rrr
+25
+23
+9
+187
+168
+167
+lit1 3, lit2 50, little 18, compare 0, chunk 195
+nb 702
+nb 702
+ra
+ra
+compare 0, little 18, len 8, lit1 13, lit2 0
+lit1 13, lit2 0 little 18
+nb 18
+reduct de a lit1 1, lit2 50, little 18, compare 0, chunk 195
+len 17, lbnum 12, lanum 18
+rrb
+rrb
+rrb
+rrb
+rrb
 je suis dabs b2
 pb
-64
+sb
+23
+18
+9
+187
+168
+167
+115
+92
 90
+135
+123
+88
+56
+47
+36
+33
 28
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-22
-10
-lit1 -1, lit2 27, little 25, compare 1, chunk 3
-little 80
-lit1 0, lit2 1 little 80
-nb 80
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 27, little 25, compare 1, chunk 3
-len 55, lbnum 1, lanum -1
-rr
+25
+lit1 1, lit2 49, little 39, compare 0, chunk 195
+nb 39
+nb 39
+compare 0, little 39, len 9, lit1 0, lit2 3
+lit1 0, lit2 3 little 39
+nb 39
+reduct de a lit1 1, lit2 49, little 39, compare 0, chunk 195
+len 18, lbnum 13, lanum 39
+rrb
+rrb
+rrb
+rrb
+rrb
 je suis dabs b2
 pb
-53
-90
+sb
+47
+39
+36
+33
 28
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-22
-10
-64
-lit1 -1, lit2 26, little 37, compare 1, chunk 3
-little 99
-lit1 0, lit2 -1 little 99
-rb
-pb
-99
+25
+23
+18
+9
+187
+168
+167
+115
+92
 90
-28
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-22
-10
-64
-53
-lit1 -1, lit2 26, little 37, compare 1, chunk 3
-little 83
-lit1 2, lit2 0 little 83
-nb 83
-reduct de a lit1 -1, lit2 26, little 37, compare 1, chunk 3
-len 57, lbnum 1, lanum -1
-rr
+135
+123
+88
+56
+lit1 1, lit2 49, little 118, compare 0, chunk 195
+nb 118
+nb 118
+compare 0, little 118, len 9, lit1 0, lit2 9
+lit1 0, lit2 9 little 118
+nb 118
+reduct de a lit1 1, lit2 49, little 118, compare 0, chunk 195
+len 19, lbnum 11, lanum 118
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
 je suis dabs b2
 pb
-74
+sb
+167
+118
+115
+92
 90
+135
+123
+88
+56
+47
+39
+36
+33
 28
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-22
-10
-64
-53
-99
-lit1 -1, lit2 25, little 92, compare 1, chunk 3
+25
+23
+18
+9
+187
+168
+lit1 1, lit2 3, little 134, compare 0, chunk 391
+nb 134
+nb 134
+compare 0, little 134, len 10, lit1 1, lit2 0
+lit1 1, lit2 0 little 134
+nb 134
+reduct de a lit1 1, lit2 3, little 134, compare 0, chunk 391
+len 20, lbnum 0, lanum 134
+je suis dabs b2
+pb
+sb
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+25
+23
+18
+9
+187
+168
+lit1 2, lit2 3, little 316, compare 0, chunk 391
+ra
+compare 0, little 316, len 10, lit1 0, lit2 -1
+lit1 0, lit2 -1 little 316
+rrb
+rrb
+pb
+316
+187
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+25
+23
+18
+9
+lit1 1, lit2 4, little 26, compare 0, chunk 391
 nb 26
-je suis dans la nouvelle condition
 nb 26
-je suis dans la nouvelle condition
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rra
-rra
-rra
-compare 1, little 92, len 29, lit1 0, lit2 21
-lit1 0, lit2 21 little 92
-nb 92
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 25, little 87, compare 1, chunk 3
-len 58, lbnum 21, lanum 87
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
+compare 0, little 26, len 11, lit1 18, lit2 0
+lit1 18, lit2 0 little 26
+nb 26
+reduct de a lit1 1, lit2 4, little 26, compare 0, chunk 391
+len 22, lbnum 17, lanum 26
+rrb
+rrb
+rrb
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+28
+26
+25
+23
+18
+9
+316
+187
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+lit1 2, lit2 4, little 234, compare 0, chunk 391
+nb 848
+nb 848
+ra
+compare 0, little 234, len 11, lit1 0, lit2 6
+lit1 0, lit2 6 little 234
+nb 234
+reduct de a lit1 1, lit2 5, little 234, compare 0, chunk 391
+len 23, lbnum 6, lanum 234
+rb
+rb
 rb
 rb
 rb
 rb
 je suis dabs b2
 pb
-87
-99
-74
+sb
+316
+234
+187
+168
+167
+134
+118
+115
+92
 90
+135
+123
+88
+56
+47
+39
+36
+33
 28
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-22
-10
-64
-53
-lit1 9, lit2 25, little 4, compare 0, chunk 4
-nb 62
-je suis dans la nouvelle condition
-nb 62
-je suis dans la nouvelle condition
-rr
-rr
-rr
-rr
-rr
+26
+25
+23
+18
+9
+lit1 7, lit2 5, little 220, compare 1, chunk 391
+nb 922
+nb 922
+rra
+rra
+rra
+rra
+rra
+compare 1, little 220, len 12, lit1 2, lit2 0
+lit1 2, lit2 0 little 220
+nb 220
+reduct de a lit1 1, lit2 3, little 220, compare 0, chunk 391
+len 24, lbnum 1, lanum 220
+rb
+je suis dabs b2
+pb
+sb
+234
+220
+187
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+316
+lit1 11, lit2 3, little 382, compare 1, chunk 391
+rrr
+rrr
+rrr
+compare 1, little 382, len 12, lit1 0, lit2 -1
+lit1 0, lit2 -1 little 382
+rb
+rb
+pb
+382
+316
+234
+220
+187
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+lit1 13, lit2 15, little 333, compare 0, chunk 391
+nb 917
+nb 917
 ra
 ra
 ra
-compare 0, little 4, len 29, lit1 1, lit2 0
-lit1 1, lit2 0 little 4
-nb 4
-reduct de a lit1 1, lit2 25, little 4, compare 0, chunk 4
-len 59, lbnum 0, lanum 4
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+compare 0, little 333, len 13, lit1 1, lit2 0
+lit1 1, lit2 0 little 333
+nb 333
+reduct de a lit1 1, lit2 27, little 333, compare 0, chunk 391
+len 26, lbnum 0, lanum 333
 je suis dabs b2
 pb
-4
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-22
-10
-64
-53
-87
-99
-74
-90
-28
-lit1 -1, lit2 24, little 52, compare 1, chunk 4
-nb 27
-je suis dans la nouvelle condition
-nb 27
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 52, len 30, lit1 0, lit2 1
-lit1 0, lit2 1 little 52
-nb 52
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 24, little 62, compare 1, chunk 4
-len 60, lbnum 1, lanum 62
-rr
-je suis dabs b2
-pb
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-48
-30
-22
-10
-64
-53
-87
-99
-74
-90
-28
-4
-lit1 -1, lit2 23, little 44, compare 1, chunk 4
-nb 54
-je suis dans la nouvelle condition
-nb 54
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 44, len 30, lit1 2, lit2 0
-lit1 2, lit2 0 little 44
-nb 44
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 23, little 86, compare 1, chunk 4
-len 61, lbnum 49, lanum 86
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-je suis dabs b2
-pb
-6
-48
-30
-22
-10
-64
-53
-87
-99
-74
-90
-28
-4
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-lit1 -1, lit2 22, little 26, compare 1, chunk 4
-nb 13
-je suis dans la nouvelle condition
-nb 13
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 26, len 31, lit1 0, lit2 1
-lit1 0, lit2 1 little 26
-nb 26
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 22, little 92, compare 1, chunk 4
-len 62, lbnum 1, lanum 92
-rr
-je suis dabs b2
-pb
-27
-48
-30
-22
-10
-64
-53
-87
-99
-74
-90
-28
-4
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-lit1 -1, lit2 22, little 52, compare 1, chunk 4
-nb 36
-je suis dans la nouvelle condition
-nb 36
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 52, len 31, lit1 0, lit2 5
-lit1 0, lit2 5 little 52
-nb 52
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 22, little 59, compare 1, chunk 4
-len 63, lbnum 5, lanum 59
-rr
-rr
-rr
-rr
-rr
-je suis dabs b2
-pb
-13
-64
-53
-87
-99
-74
-90
-28
-4
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-lit1 -1, lit2 21, little 26, compare 1, chunk 4
-nb 51
-je suis dans la nouvelle condition
-nb 51
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 26, len 32, lit1 0, lit2 1
-lit1 0, lit2 1 little 26
-nb 26
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 21, little 92, compare 1, chunk 4
-len 64, lbnum 1, lanum 92
-rr
-je suis dabs b2
-pb
-36
-64
-53
-87
-99
-74
-90
-28
-4
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-lit1 -1, lit2 21, little 52, compare 1, chunk 4
-nb 9
-je suis dans la nouvelle condition
-nb 9
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 52, len 32, lit1 0, lit2 1
-lit1 0, lit2 1 little 52
-nb 52
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 21, little 59, compare 1, chunk 4
-len 65, lbnum 1, lanum 59
-rr
-je suis dabs b2
-pb
-54
-64
-53
-87
-99
-74
-90
-28
-4
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-lit1 -1, lit2 20, little 72, compare 1, chunk 4
-nb 61
-je suis dans la nouvelle condition
-nb 61
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 72, len 33, lit1 0, lit2 3
-lit1 0, lit2 3 little 72
-nb 72
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 20, little 25, compare 1, chunk 4
-len 66, lbnum 3, lanum 25
-rr
-rr
-rr
-je suis dabs b2
-pb
-83
-87
-99
-74
-90
-28
-4
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-lit1 -1, lit2 20, little 76, compare 1, chunk 4
-nb 26
-je suis dans la nouvelle condition
-nb 26
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 76, len 33, lit1 3, lit2 0
-lit1 3, lit2 0 little 76
-nb 76
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 20, little 85, compare 1, chunk 4
-len 67, lbnum 4, lanum 85
-rr
-rr
-rr
-rr
-je suis dabs b2
-pb
-66
-90
-28
-4
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-lit1 -1, lit2 19, little 42, compare 1, chunk 4
-nb 43
-je suis dans la nouvelle condition
-nb 43
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 42, len 34, lit1 2, lit2 0
-lit1 2, lit2 0 little 42
-nb 42
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 19, little 45, compare 1, chunk 4
-len 68, lbnum 4, lanum 45
-rr
-rr
-rr
-rr
-je suis dabs b2
-pb
-38
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-66
-90
-28
-4
-lit1 -1, lit2 19, little 52, compare 1, chunk 4
-nb 11
-je suis dans la nouvelle condition
-nb 11
-je suis dans la nouvelle condition
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rra
-rra
-compare 1, little 52, len 34, lit1 0, lit2 6
-lit1 0, lit2 6 little 52
-nb 52
-reduct de a lit1 -1, lit2 19, little 59, compare 1, chunk 4
-len 69, lbnum 14, lanum 59
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rb
-rb
-je suis dabs b2
-pb
-59
-90
-28
-4
-38
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-66
-lit1 -1, lit2 18, little 86, compare 1, chunk 4
-nb 44
-je suis dans la nouvelle condition
-nb 44
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 86, len 35, lit1 0, lit2 1
-lit1 0, lit2 1 little 86
-nb 86
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 18, little 34, compare 1, chunk 4
-len 70, lbnum 1, lanum 34
-rr
-je suis dabs b2
-pb
-25
-90
-28
-4
-38
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-66
-59
-lit1 -1, lit2 17, little 20, compare 1, chunk 4
-nb 45
-je suis dans la nouvelle condition
-nb 45
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 20, len 35, lit1 3, lit2 0
-lit1 3, lit2 0 little 20
-nb 20
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 17, little 65, compare 1, chunk 4
-len 71, lbnum 4, lanum 65
-rr
-rr
-rr
-rr
-je suis dabs b2
-pb
-44
-38
-49
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-66
-59
-25
-90
-28
-4
-lit1 -1, lit2 16, little 45, compare 1, chunk 4
-nb 72
-nb 72
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 45, len 36, lit1 0, lit2 2
-lit1 0, lit2 2 little 45
-nb 45
-reduct de a lit1 -1, lit2 16, little 20, compare 1, chunk 4
-len 72, lbnum 3, lanum 20
-rr
-rr
-rr
-je suis dabs b2
-pb
+sb
+382
+333
+316
+234
+220
+187
+168
+167
+134
+118
+115
 92
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-66
-59
-25
 90
+135
+123
+88
+56
+47
+39
+36
+33
 28
-4
-44
-38
-49
-lit1 -1, lit2 16, little 62, compare 1, chunk 4
-nb 52
-nb 52
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 62, len 36, lit1 2, lit2 0
-lit1 2, lit2 0 little 62
-nb 62
-reduct de a lit1 -1, lit2 16, little 68, compare 1, chunk 4
-len 73, lbnum 1, lanum 68
-rr
+26
+25
+23
+18
+9
+lit1 1, lit2 27, little 379, compare 0, chunk 391
+nb 379
+nb 379
+compare 0, little 379, len 13, lit1 1, lit2 0
+lit1 1, lit2 0 little 379
+nb 379
+reduct de a lit1 1, lit2 27, little 379, compare 0, chunk 391
+len 27, lbnum 0, lanum 379
 je suis dabs b2
 pb
-72
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-66
-59
-25
-90
-28
-4
-44
-38
-49
+sb
+382
+379
+333
+316
+234
+220
+187
+168
+167
+134
+118
+115
 92
-lit1 -1, lit2 15, little 45, compare 1, chunk 4
-nb 42
-je suis dans la nouvelle condition
-nb 42
-je suis dans la nouvelle condition
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rra
-compare 1, little 45, len 37, lit1 6, lit2 0
-lit1 6, lit2 0 little 45
-nb 45
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 15, little 20, compare 1, chunk 4
-len 74, lbnum 7, lanum 20
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-je suis dabs b2
-pb
-58
 90
-28
-4
-44
-38
-49
-92
-72
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
+135
+123
+88
+56
+47
+39
 36
-54
-64
-53
-83
-87
-99
-74
-66
-59
-25
-lit1 -1, lit2 15, little 9, compare 1, chunk 4
-nb 73
-je suis dans la nouvelle condition
-nb 73
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 9, len 37, lit1 3, lit2 0
-lit1 3, lit2 0 little 9
-nb 9
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 15, little 76, compare 1, chunk 4
-len 75, lbnum 4, lanum 76
-rr
-rr
-rr
-rr
-je suis dabs b2
-pb
-15
-44
-38
-49
-92
-72
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-66
-59
-25
-58
-90
+33
 28
-4
-lit1 -1, lit2 14, little 73, compare 1, chunk 4
-nb 24
-je suis dans la nouvelle condition
-nb 24
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 73, len 38, lit1 0, lit2 4
-lit1 0, lit2 4 little 73
-nb 73
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 14, little 9, compare 1, chunk 4
-len 76, lbnum 4, lanum 9
-rr
-rr
-rr
-rr
-je suis dabs b2
-pb
-50
-92
-72
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-66
-59
+26
 25
-58
-90
-28
-4
-15
-44
-38
-49
-lit1 -1, lit2 14, little 24, compare 1, chunk 4
-nb 85
-je suis dans la nouvelle condition
-nb 85
-je suis dans la nouvelle condition
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 24, len 38, lit1 4, lit2 0
-lit1 4, lit2 0 little 24
-nb 24
-je suis dans la nouvelle condition
-reduct de a lit1 -1, lit2 14, little 51, compare 1, chunk 4
-len 77, lbnum 52, lanum 51
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-rrb
-je suis dabs b2
-pb
-51
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-66
-59
-25
-58
-90
-28
-4
-15
-44
-38
-49
-50
-92
-72
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-lit1 -1, lit2 13, little 9, compare 1, chunk 4
-nb 73
-nb 73
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-rra
-compare 1, little 9, len 39, lit1 21, lit2 0
-lit1 21, lit2 0 little 9
-nb 9
-reduct de a lit1 -1, lit2 13, little 76, compare 1, chunk 4
-len 78, lbnum 20, lanum 76
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
-rr
+23
+18
+9
+lit1 1, lit2 27, little 172, compare 0, chunk 391
+nb 172
+nb 172
+compare 0, little 172, len 14, lit1 7, lit2 0
+lit1 7, lit2 0 little 172
+nb 172
+reduct de a lit1 1, lit2 27, little 172, compare 0, chunk 391
+len 28, lbnum 6, lanum 172
 rb
+rb
+rb
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+187
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+333
+316
+234
+220
+lit1 3, lit2 27, little 176, compare 0, chunk 391
+nb 672
+nb 672
+ra
+ra
+compare 0, little 176, len 14, lit1 1, lit2 0
+lit1 1, lit2 0 little 176
+nb 176
+reduct de a lit1 1, lit2 29, little 176, compare 0, chunk 391
+len 29, lbnum 0, lanum 176
+je suis dabs b2
+pb
+sb
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+333
+316
+234
+220
+lit1 1, lit2 29, little 223, compare 0, chunk 391
+nb 223
+nb 223
+compare 0, little 223, len 15, lit1 0, lit2 24
+lit1 0, lit2 24 little 223
+nb 223
+reduct de a lit1 1, lit2 29, little 223, compare 0, chunk 391
+len 30, lbnum 28, lanum 223
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+234
+223
+220
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+333
+316
+lit1 1, lit2 29, little 204, compare 0, chunk 391
+nb 204
+nb 204
+compare 0, little 204, len 15, lit1 3, lit2 0
+lit1 3, lit2 0 little 204
+nb 204
+reduct de a lit1 1, lit2 29, little 204, compare 0, chunk 391
+len 31, lbnum 2, lanum 204
+rb
+rb
+je suis dabs b2
+pb
+sb
+220
+204
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+333
+316
+234
+223
+lit1 3, lit2 29, little 318, compare 0, chunk 391
+nb 634
+nb 634
+ra
+ra
+compare 0, little 318, len 16, lit1 0, lit2 26
+lit1 0, lit2 26 little 318
+nb 318
+reduct de a lit1 1, lit2 31, little 318, compare 0, chunk 391
+len 32, lbnum 28, lanum 318
+rrb
+rrb
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+333
+318
+316
+234
+223
+220
+204
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+lit1 9, lit2 31, little 339, compare 0, chunk 391
+nb 469
+nb 469
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+compare 0, little 339, len 16, lit1 0, lit2 31
+lit1 0, lit2 31 little 339
+nb 339
+reduct de a lit1 1, lit2 40, little 339, compare 0, chunk 391
+len 33, lbnum -1, lanum 339
+je suis dabs b2
+pb
+339
+333
+318
+316
+234
+223
+220
+204
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+lit1 4, lit2 39, little 279, compare 0, chunk 391
+nb 807
+nb 807
+ra
+ra
+ra
+compare 0, little 279, len 17, lit1 4, lit2 0
+lit1 4, lit2 0 little 279
+nb 279
+reduct de a lit1 1, lit2 39, little 279, compare 0, chunk 391
+len 34, lbnum 3, lanum 279
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+316
+279
+234
+223
+220
+204
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+339
+333
+318
+lit1 2, lit2 39, little 361, compare 0, chunk 391
+nb 786
+nb 786
+ra
+compare 0, little 361, len 17, lit1 0, lit2 30
+lit1 0, lit2 30 little 361
+nb 361
+reduct de a lit1 1, lit2 39, little 361, compare 0, chunk 391
+len 35, lbnum 31, lanum 361
+rrb
+rrb
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+379
+361
+339
+333
+318
+316
+279
+234
+223
+220
+204
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+lit1 2, lit2 38, little 196, compare 0, chunk 391
+nb 803
+nb 803
+ra
+compare 0, little 196, len 18, lit1 11, lit2 0
+lit1 11, lit2 0 little 196
+nb 196
+reduct de a lit1 1, lit2 38, little 196, compare 0, chunk 391
+len 36, lbnum 10, lanum 196
 rb
 rb
 rb
@@ -4863,85 +1204,885 @@ rb
 rb
 je suis dabs b2
 pb
-76
-28
-4
-15
-44
-38
-49
-50
+sb
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
 92
-72
-77
--100
--97
--96
--95
--94
--92
--91
--86
--82
--80
--78
--77
--75
--72
--68
--67
--66
--61
--60
--54
--51
--50
--49
--48
--46
--43
--41
--35
--32
--31
--29
--28
--25
--24
--21
--20
--19
--18
--16
--14
--12
--10
--9
--8
--7
--3
--1
-6
-51
-27
-48
-30
-22
-10
-13
-36
-54
-64
-53
-83
-87
-99
-74
-66
-59
-25
-58
 90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+361
+339
+333
+318
+316
+279
+234
+223
+220
+lit1 2, lit2 38, little 284, compare 0, chunk 391
+nb 609
+nb 609
+ra
+compare 0, little 284, len 18, lit1 0, lit2 26
+lit1 0, lit2 26 little 284
+nb 284
+reduct de a lit1 1, lit2 38, little 284, compare 0, chunk 391
+len 37, lbnum 32, lanum 284
+rrb
+rrb
+rrb
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+316
+284
+279
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+361
+339
+333
+318
+lit1 1, lit2 37, little 268, compare 0, chunk 391
+nb 268
+nb 268
+compare 0, little 268, len 19, lit1 3, lit2 0
+lit1 3, lit2 0 little 268
+nb 268
+reduct de a lit1 1, lit2 37, little 268, compare 0, chunk 391
+len 38, lbnum 2, lanum 268
+rb
+rb
+je suis dabs b2
+pb
+sb
+279
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+361
+339
+333
+318
+316
+284
+lit1 1, lit2 37, little 272, compare 0, chunk 391
+nb 272
+nb 272
+compare 0, little 272, len 19, lit1 1, lit2 0
+lit1 1, lit2 0 little 272
+nb 272
+reduct de a lit1 1, lit2 37, little 272, compare 0, chunk 391
+len 39, lbnum 0, lanum 272
+je suis dabs b2
+pb
+sb
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+382
+379
+361
+339
+333
+318
+316
+284
+lit1 9, lit2 8, little 564, compare 1, chunk 586
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+compare 1, little 564, len 20, lit1 0, lit2 -1
+lit1 0, lit2 -1 little 564
+pb
+564
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+lit1 16, lit2 2, little 545, compare 1, chunk 586
+nb 649
+nb 649
+rra
+rra
+compare 1, little 545, len 20, lit1 1, lit2 0
+lit1 1, lit2 0 little 545
+nb 545
+reduct de a lit1 1, lit2 2, little 545, compare 0, chunk 586
+len 41, lbnum 0, lanum 545
+je suis dabs b2
+pb
+sb
+564
+545
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+lit1 17, lit2 2, little 512, compare 1, chunk 586
+nb 954
+nb 954
+rra
+rra
+compare 1, little 512, len 21, lit1 2, lit2 0
+lit1 2, lit2 0 little 512
+nb 512
+reduct de a lit1 1, lit2 2, little 512, compare 0, chunk 586
+len 42, lbnum 1, lanum 512
+rb
+je suis dabs b2
+pb
+sb
+545
+512
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+564
+lit1 18, lit2 2, little 469, compare 1, chunk 586
+nb 986
+nb 986
+rra
+rra
+compare 1, little 469, len 21, lit1 2, lit2 0
+lit1 2, lit2 0 little 469
+nb 469
+reduct de a lit1 1, lit2 9, little 469, compare 0, chunk 586
+len 43, lbnum 1, lanum 469
+rb
+je suis dabs b2
+pb
+sb
+512
+469
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+564
+545
+lit1 19, lit2 9, little 539, compare 1, chunk 586
+nb 909
+nb 909
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+compare 1, little 539, len 22, lit1 0, lit2 42
+lit1 0, lit2 42 little 539
+nb 539
+reduct de a lit1 1, lit2 3, little 539, compare 0, chunk 586
+len 44, lbnum -1, lanum 539
+je suis dabs b2
+pb
+539
+512
+469
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+564
+545
+lit1 8, lit2 3, little 475, compare 1, chunk 586
+nb 742
+nb 742
+rra
+rra
+rra
+compare 1, little 475, len 22, lit1 2, lit2 0
+lit1 2, lit2 0 little 475
+nb 475
+reduct de a lit1 1, lit2 3, little 475, compare 0, chunk 586
+len 45, lbnum 1, lanum 475
+rb
+je suis dabs b2
+pb
+sb
+512
+475
+469
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+564
+545
+539
+lit1 10, lit2 3, little 427, compare 1, chunk 586
+nb 848
+nb 848
+rra
+rra
+rra
+compare 1, little 427, len 23, lit1 3, lit2 0
+lit1 3, lit2 0 little 427
+nb 427
+reduct de a lit1 1, lit2 2, little 427, compare 0, chunk 586
+len 46, lbnum 2, lanum 427
+rb
+rb
+je suis dabs b2
+pb
+sb
+469
+427
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+564
+545
+539
+512
+475
+lit1 12, lit2 2, little 573, compare 1, chunk 586
+rrr
+rrr
+compare 1, little 573, len 23, lit1 0, lit2 -1
+lit1 0, lit2 -1 little 573
+rrb
+rrb
+rrb
+pb
+573
+564
+545
+539
+512
+475
+469
+427
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+lit1 13, lit2 5, little 502, compare 1, chunk 586
+nb 917
+nb 917
+rra
+rra
+rra
+rra
+rra
+compare 1, little 502, len 24, lit1 5, lit2 0
+lit1 5, lit2 0 little 502
+nb 502
+reduct de a lit1 1, lit2 3, little 502, compare 0, chunk 586
+len 48, lbnum 4, lanum 502
+rb
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+512
+502
+475
+469
+427
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+573
+564
+545
+539
+lit1 4, lit2 3, little 454, compare 1, chunk 586
+nb 622
+nb 622
+rra
+rra
+rra
+compare 1, little 454, len 24, lit1 4, lit2 0
+lit1 4, lit2 0 little 454
+nb 454
+reduct de a lit1 1, lit2 5, little 454, compare 0, chunk 586
+len 49, lbnum 3, lanum 454
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+469
+454
+427
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+573
+564
+545
+539
+512
+502
+475
+lit1 6, lit2 5, little 430, compare 1, chunk 586
+nb 703
+nb 703
+rra
+rra
+rra
+rra
+rra
+compare 1, little 430, len 25, lit1 2, lit2 0
+lit1 2, lit2 0 little 430
+nb 430
+reduct de a lit1 1, lit2 6, little 430, compare 0, chunk 586
+len 50, lbnum 1, lanum 430
+rb
+je suis dabs b2
+pb
+sb
+454
+430
+427
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+573
+564
+545
+539
+512
+502
+475
+469
+lit1 4, lit2 6, little 554, compare 0, chunk 586
+nb 774
+nb 774
+ra
+ra
+ra
+compare 0, little 554, len 25, lit1 0, lit2 43
+lit1 0, lit2 43 little 554
+nb 554
+reduct de a lit1 1, lit2 4, little 554, compare 0, chunk 586
+len 51, lbnum 44, lanum 554
 rrb
 rrb
 rrb
@@ -4949,6 +2090,2490 @@ rrb
 rrb
 rrb
 rrb
+je suis dabs b2
+pb
+sb
+564
+554
+545
+539
+512
+502
+475
+469
+454
+430
+427
+382
+379
+361
+339
+333
+318
+316
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+573
+lit1 6, lit2 4, little 311, compare 1, chunk 586
+nb 703
+nb 703
+rra
+rra
+rra
+rra
+compare 1, little 311, len 26, lit1 18, lit2 0
+lit1 18, lit2 0 little 311
+nb 311
+reduct de a lit1 1, lit2 5, little 311, compare 0, chunk 586
+len 52, lbnum 17, lanum 311
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+316
+311
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+573
+564
+554
+545
+539
+512
+502
+475
+469
+454
+430
+427
+382
+379
+361
+339
+333
+318
+lit1 9, lit2 5, little 576, compare 1, chunk 586
+rrr
+rrr
+rrr
+rrr
+rrr
+compare 1, little 576, len 26, lit1 0, lit2 -1
+lit1 0, lit2 -1 little 576
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pb
+576
+573
+564
+554
+545
+539
+512
+502
+475
+469
+454
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+lit1 13, lit2 2, little 215, compare 1, chunk 586
+nb 964
+nb 964
+rra
+rra
+compare 1, little 215, len 27, lit1 28, lit2 0
+lit1 28, lit2 0 little 215
+nb 215
+reduct de a lit1 1, lit2 19, little 215, compare 0, chunk 586
+len 54, lbnum 27, lanum 215
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+576
+573
+564
+554
+545
+539
+512
+502
+475
+469
+454
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+lit1 1, lit2 19, little 569, compare 0, chunk 586
+nb 569
+nb 569
+compare 0, little 569, len 27, lit1 0, lit2 28
+lit1 0, lit2 28 little 569
+nb 569
+reduct de a lit1 1, lit2 19, little 569, compare 0, chunk 586
+len 55, lbnum 29, lanum 569
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+573
+569
+564
+554
+545
+539
+512
+502
+475
+469
+454
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+576
+lit1 13, lit2 19, little 435, compare 0, chunk 586
+nb 964
+nb 964
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+compare 0, little 435, len 28, lit1 11, lit2 0
+lit1 11, lit2 0 little 435
+nb 435
+reduct de a lit1 1, lit2 26, little 435, compare 0, chunk 586
+len 56, lbnum 10, lanum 435
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+576
+573
+569
+564
+554
+545
+539
+512
+502
+475
+469
+lit1 13, lit2 26, little 537, compare 0, chunk 586
+nb 917
+nb 917
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+compare 0, little 537, len 28, lit1 0, lit2 46
+lit1 0, lit2 46 little 537
+nb 537
+reduct de a lit1 1, lit2 26, little 537, compare 0, chunk 586
+len 57, lbnum 52, lanum 537
+rrb
+rrb
+rrb
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+576
+573
+569
+564
+554
+545
+lit1 -1, lit2 25, little 653, compare 1, chunk 586
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rra
+rra
+compare 1, little 653, len 29, lit1 0, lit2 -1
+lit1 0, lit2 -1 little 653
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+pb
+653
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+lit1 -1, lit2 25, little 922, compare 1, chunk 586
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+compare 1, little 922, len 29, lit1 0, lit2 -1
+lit1 0, lit2 -1 little 922
+pb
+922
+653
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+lit1 1, lit2 3, little 742, compare 0, chunk 782
+nb 742
+nb 742
+compare 0, little 742, len 30, lit1 1, lit2 0
+lit1 1, lit2 0 little 742
+nb 742
+reduct de a lit1 1, lit2 3, little 742, compare 0, chunk 782
+len 60, lbnum 0, lanum 742
+je suis dabs b2
+pb
+sb
+922
+742
+653
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+lit1 2, lit2 3, little 645, compare 0, chunk 782
+nb 961
+nb 961
+ra
+compare 0, little 645, len 30, lit1 3, lit2 0
+lit1 3, lit2 0 little 645
+nb 645
+reduct de a lit1 1, lit2 4, little 645, compare 0, chunk 782
+len 61, lbnum 2, lanum 645
+rb
+rb
+je suis dabs b2
+pb
+sb
+653
+645
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+742
+lit1 2, lit2 4, little 672, compare 0, chunk 782
+nb 912
+nb 912
+ra
+compare 0, little 672, len 31, lit1 0, lit2 60
+lit1 0, lit2 60 little 672
+nb 672
+reduct de a lit1 1, lit2 5, little 672, compare 0, chunk 782
+len 62, lbnum -1, lanum 672
+je suis dabs b2
+pb
+672
+653
+645
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+742
+lit1 1, lit2 5, little 716, compare 0, chunk 782
+nb 716
+nb 716
+compare 0, little 716, len 31, lit1 0, lit2 61
+lit1 0, lit2 61 little 716
+nb 716
+reduct de a lit1 1, lit2 5, little 716, compare 0, chunk 782
+len 63, lbnum -1, lanum 716
+je suis dabs b2
+pb
+716
+672
+653
+645
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+742
+lit1 1, lit2 5, little 634, compare 0, chunk 782
+nb 634
+nb 634
+compare 0, little 634, len 32, lit1 4, lit2 0
+lit1 4, lit2 0 little 634
+nb 634
+reduct de a lit1 1, lit2 5, little 634, compare 0, chunk 782
+len 64, lbnum 3, lanum 634
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+645
+634
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+742
+716
+672
+653
+lit1 4, lit2 5, little 649, compare 0, chunk 782
+nb 909
+nb 909
+ra
+ra
+ra
+compare 0, little 649, len 32, lit1 0, lit2 60
+lit1 0, lit2 60 little 649
+nb 649
+reduct de a lit1 1, lit2 8, little 649, compare 0, chunk 782
+len 65, lbnum -1, lanum 649
+je suis dabs b2
+pb
+649
+645
+634
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+742
+716
+672
+653
+lit1 6, lit2 8, little 609, compare 0, chunk 782
+nb 807
+nb 807
+ra
+ra
+ra
+ra
+ra
+compare 0, little 609, len 33, lit1 3, lit2 0
+lit1 3, lit2 0 little 609
+nb 609
+reduct de a lit1 1, lit2 13, little 609, compare 0, chunk 782
+len 66, lbnum 2, lanum 609
+rb
+rb
+je suis dabs b2
+pb
+sb
+634
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+742
+716
+672
+653
+649
+645
+lit1 4, lit2 13, little 781, compare 0, chunk 782
+nb 845
+nb 845
+ra
+ra
+ra
+compare 0, little 781, len 33, lit1 0, lit2 60
+lit1 0, lit2 60 little 781
+nb 781
+reduct de a lit1 1, lit2 16, little 781, compare 0, chunk 782
+len 67, lbnum 60, lanum 781
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+922
+781
+742
+716
+672
+653
+649
+645
+634
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+lit1 1, lit2 16, little 616, compare 0, chunk 782
+nb 616
+nb 616
+compare 0, little 616, len 34, lit1 9, lit2 0
+lit1 9, lit2 0 little 616
+nb 616
+reduct de a lit1 1, lit2 16, little 616, compare 0, chunk 782
+len 68, lbnum 8, lanum 616
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+634
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+742
+716
+672
+653
+649
+645
+lit1 2, lit2 16, little 719, compare 0, chunk 782
+nb 900
+nb 900
+ra
+compare 0, little 719, len 34, lit1 0, lit2 61
+lit1 0, lit2 61 little 719
+nb 719
+reduct de a lit1 1, lit2 17, little 719, compare 0, chunk 782
+len 69, lbnum 63, lanum 719
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+742
+719
+716
+672
+653
+649
+645
+634
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+lit1 2, lit2 18, little 754, compare 0, chunk 782
+nb 964
+nb 964
+ra
+compare 0, little 754, len 35, lit1 0, lit2 68
+lit1 0, lit2 68 little 754
+nb 754
+reduct de a lit1 1, lit2 18, little 754, compare 0, chunk 782
+len 70, lbnum -1, lanum 754
+je suis dabs b2
+pb
+754
+742
+719
+716
+672
+653
+649
+645
+634
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+lit1 1, lit2 17, little 696, compare 0, chunk 782
+nb 696
+nb 696
+compare 0, little 696, len 35, lit1 4, lit2 0
+lit1 4, lit2 0 little 696
+nb 696
+reduct de a lit1 1, lit2 17, little 696, compare 0, chunk 782
+len 71, lbnum 3, lanum 696
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+716
+696
+672
+653
+649
+645
+634
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+754
+742
+719
+lit1 1, lit2 16, little 734, compare 0, chunk 782
+nb 734
+nb 734
+compare 0, little 734, len 36, lit1 0, lit2 67
+lit1 0, lit2 67 little 734
+nb 734
+reduct de a lit1 1, lit2 16, little 734, compare 0, chunk 782
+len 72, lbnum 70, lanum 734
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+742
+734
+719
+716
+696
+672
+653
+649
+645
+634
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+754
+lit1 1, lit2 16, little 774, compare 0, chunk 782
+nb 774
+nb 774
+compare 0, little 774, len 36, lit1 0, lit2 70
+lit1 0, lit2 70 little 774
+nb 774
+reduct de a lit1 1, lit2 16, little 774, compare 0, chunk 782
+len 73, lbnum 71, lanum 774
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+781
+774
+754
+742
+734
+719
+716
+696
+672
+653
+649
+645
+634
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+lit1 3, lit2 15, little 703, compare 0, chunk 782
+nb 978
+nb 978
+ra
+ra
+compare 0, little 703, len 37, lit1 7, lit2 0
+lit1 7, lit2 0 little 703
+nb 703
+reduct de a lit1 1, lit2 15, little 703, compare 0, chunk 782
+len 74, lbnum 6, lanum 703
+rb
+rb
+rb
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+716
+703
+696
+672
+653
+649
+645
+634
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+774
+754
+742
+734
+719
+lit1 1, lit2 15, little 718, compare 0, chunk 782
+nb 718
+nb 718
+compare 0, little 718, len 37, lit1 0, lit2 68
+lit1 0, lit2 68 little 718
+nb 718
+reduct de a lit1 1, lit2 15, little 718, compare 0, chunk 782
+len 75, lbnum -1, lanum 718
+je suis dabs b2
+pb
+718
+716
+703
+696
+672
+653
+649
+645
+634
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+774
+754
+742
+734
+719
+lit1 1, lit2 14, little 622, compare 0, chunk 782
+nb 622
+nb 622
+compare 0, little 622, len 38, lit1 9, lit2 0
+lit1 9, lit2 0 little 622
+nb 622
+reduct de a lit1 1, lit2 14, little 622, compare 0, chunk 782
+len 76, lbnum 8, lanum 622
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+je suis dabs b2
+pb
+sb
+634
+622
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+774
+754
+742
+734
+719
+718
+716
+703
+696
+672
+653
+649
+645
+lit1 1, lit2 14, little 692, compare 0, chunk 782
+nb 692
+nb 692
+compare 0, little 692, len 38, lit1 0, lit2 62
+lit1 0, lit2 62 little 692
+nb 692
+reduct de a lit1 1, lit2 14, little 692, compare 0, chunk 782
+len 77, lbnum 72, lanum 692
+rrb
+rrb
+rrb
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+696
+692
+672
+653
+649
+645
+634
+622
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+774
+754
+742
+734
+719
+718
+716
+703
+lit1 1, lit2 13, little 677, compare 0, chunk 782
+nb 677
+nb 677
+compare 0, little 677, len 39, lit1 2, lit2 0
+lit1 2, lit2 0 little 677
+nb 677
+reduct de a lit1 1, lit2 13, little 677, compare 0, chunk 782
+len 78, lbnum 1, lanum 677
+rb
+je suis dabs b2
+pb
+sb
+692
+677
+672
+653
+649
+645
+634
+622
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+774
+754
+742
+734
+719
+718
+716
+703
+696
+lit1 2, lit2 13, little 702, compare 0, chunk 782
+nb 917
+nb 917
+ra
+compare 0, little 702, len 39, lit1 0, lit2 68
+lit1 0, lit2 68 little 702
+nb 702
+reduct de a lit1 1, lit2 13, little 702, compare 0, chunk 782
+len 79, lbnum 77, lanum 702
+rrb
+rrb
+je suis dabs b2
+pb
+sb
+703
+702
+696
+692
+677
+672
+653
+649
+645
+634
+622
+616
+609
+576
+573
+569
+564
+554
+545
+539
+537
+512
+502
+475
+469
+454
+435
+430
+427
+382
+379
+361
+339
+333
+318
+316
+311
+284
+279
+272
+268
+234
+223
+220
+215
+204
+196
+187
+176
+172
+168
+167
+134
+118
+115
+92
+90
+135
+123
+88
+56
+47
+39
+36
+33
+28
+26
+25
+23
+18
+9
+922
+781
+774
+754
+742
+734
+719
+718
+716
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+rrb
+pa
 pa
 pa
 pa
@@ -5029,103 +4654,103 @@ pa
 pa
 pa
 liste final
-87
-83
-53
-64
-54
-36
-13
-10
-22
-30
-48
-27
-51
-6
--1
--3
--7
--8
--9
--10
--12
--14
--16
--18
--19
--20
--21
--24
--25
--28
--29
--31
--32
--35
--41
--43
--46
--48
--49
--50
--51
--54
--60
--61
--66
--67
--68
--72
--75
--77
--78
--80
--82
--86
--91
--92
--94
--95
--96
--97
--100
-77
-72
-92
-50
-49
-38
-44
-15
-4
-28
-76
-90
-58
-25
-59
-66
-74
-99
-52
-61
-43
-73
-34
-100
-20
-85
-62
-42
-80
-26
 9
-11
-12
-65
-24
-68
-86
-45
-37
+18
+23
+25
+26
+28
+33
+36
+39
+47
+56
+88
+123
+135
+90
+92
+115
+118
+134
+167
+168
+172
+176
+187
+196
+204
+215
+220
+223
+234
+268
+272
+279
+284
+311
+316
+318
+333
+339
+361
+379
+382
+427
+430
+435
+454
+469
+475
+502
+512
+537
+539
+545
+554
+564
+569
+573
+576
+609
+616
+622
+634
+645
+649
+653
+672
+677
+692
+696
+702
+703
+716
+718
+719
+734
+742
+754
+774
+781
+922
+892
+848
+961
+912
+909
+986
+954
+807
+982
+942
+786
+803
+845
+866
+924
+900
+964
+978
+948
+917

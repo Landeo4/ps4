@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 18:25:08 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 19:50:33 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 20:28:15 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,8 @@ int	ft_reduce_managera(t_struct *data, int chunk)
 	else if (compare == 0)
 		lit = ft_found_little_100_25(data, lita1, chunk);
 	ft_printf("reduct de a lit1 %d, lit2 %d, little %d, compare %d, chunk %d\n", lita1, lita2, lit, compare, chunk);
-	if ((compare == 1 && lita2 > 25) || (compare == 0 && lita1 > 25)) 
-		lit = -1;
+	/*if ((compare == 1 && lita2 > 25) || (compare == 0 && lita1 > 25)) 
+		lit = -1;*/
 	return (lit);
 }
 

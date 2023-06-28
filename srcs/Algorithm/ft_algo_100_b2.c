@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 19:42:27 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 20:37:05 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2, int chunk)
 		ft_take_best_place100(data, chunk);
 		ft_printf("je suis dabs b2\n");
 		data->la = pb(data);
+		if (data->lb->next->num < data->lb->next->next->num)
+			data->lb = sb(data->lb, data);
 		return ;
 	}
 	else if (lit1 == -1)
@@ -47,11 +49,11 @@ void	ft_100_lit1(t_list_b *lb, t_struct *data, int cpt)
 		data->la = pb(data);
 		return ;
 	}
-	ft_printf("cpt dans lit positif%d\n", cpt);
 	lb = data->lb->next;
 	if (cpt == lb->num && data->la->next->num < cpt)
 	{
 		data->la = pb(data);
+		data->lb = sb(data->lb, data);
 		return ;
 	}
 	ft_take_best_place102(data, cpt);
