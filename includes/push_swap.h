@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 11:19:36 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 18:15:17 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -258,6 +258,19 @@ void		ft_best_place_102help(int i, int len, t_struct *data);
 void		ft_take_25_help(int compare, t_struct *data, int little, int len);
 void		ft_100_swap_help0(t_struct *data, int lit1, int lit2, int chunk);
 void		ft_make_best_place_alg100_0(t_struct *data, t_list_b *lb);
+void		ft_100_swap_manager_negative(t_struct *data, int lit1, int lit2, int chunk);
+void		ft_100_lit10(t_list_b *lb, t_struct *data, int cpt);
+void		ft_make_best_place_alg100_0(t_struct *data, t_list_b *lb);
+void		ft_bp_alg100help0(int len, int i, t_struct *data, int nb);
+void		ft_take_best_place1022(t_struct *data, int nb);
+void		ft_best_place_1022_helper(int i, int len, t_struct *data);
+void		ft_trie_1000_manager(t_struct *data, int chunk, int token);
+int			ft_found_best_place1000(t_struct *data, t_list_b *lb, int nb);
+void		ft_best_place_1020help(int i, int len, t_struct *data);
+int			ft_found_best_place1000(t_struct *data, t_list_b *lb, int nb);
+int			ft_trie_1000_b_little(t_struct *data, int little);
+int			ft_trie_1000_b_biggest(t_struct *data, int little);
+void		ft_take_25_algo1000(t_struct *data, int compare, int little, int chunk);
 
 // =======================================================================
 //								algo 500
