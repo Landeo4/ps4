@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 15:19:06 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 18:57:45 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 19:40:08 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,6 +87,9 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 	la = data->la->next;
 	littlech1 = ft_found_pos_little_first_part(data, moyenne);
 	littlech2 = ft_found_pos_little_last_part(data, moyenne);
+	/*ft_printf("lista ===========\n");
+	ft_print_lista(data);
+	ft_printf("lista ===========\n");*/
 	if (littlech1 <= littlech2 && littlech1 != -1)
 		compare = 0;
 	else
@@ -100,10 +103,11 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 		ft_chunk_helper(data, compare, little);
 		return (0);
 	}
-	ft_printf("lit1 %d, lit2 %d, little %d, compare %d\n", littlech1, littlech2, little, compare);
+	ft_printf("lit1 %d, lit2 %d, little %d, compare %d, chunk %d\n", littlech1, littlech2, little, compare, moyenne);
 	if (compare == 1 && littlech2 > 25)
 	{
 		little = data->la->next->num;
+		ft_printf("little %d\n", little);
 		littlech1 = ft_trie_100_b_little(data, little);
 		littlech2 = ft_trie_100_b_biggest(data, little);
 		ft_100_swap_manager(data, littlech1, littlech2, moyenne);
@@ -112,6 +116,7 @@ int	ft_chunk(t_struct *data, int moyenne, int token)
 	else if (compare == 0 && littlech1 > 25)
 	{
 		little = data->la->next->num;
+		ft_printf("little %d\n", little);
 		littlech1 = ft_trie_100_b_little(data, little);
 		littlech2 = ft_trie_100_b_biggest(data, little);
 		ft_100_swap_manager(data, littlech1, littlech2, moyenne);

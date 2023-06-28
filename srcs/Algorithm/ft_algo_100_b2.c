@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 19:02:57 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 19:42:27 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2, int chunk)
 	cpt = 0;
 	len = ft_len_listb(data);
 	lb = data->lb->next;
-	ft_printf("lit1 %d, lit2 %d \n", lit1, lit2);
+	ft_printf("lit1 %d, lit2 %d little %d\n", lit1, lit2, data->la->next->num);
 	if (data->la->next->num < 0)
 		ft_100_swap_manager_negative(data, lit1, lit2, chunk);
 	else if (lit1 != -1 && lit2 != -1)
@@ -47,14 +47,9 @@ void	ft_100_lit1(t_list_b *lb, t_struct *data, int cpt)
 		data->la = pb(data);
 		return ;
 	}
-	ft_printf("cpt %d\n", cpt);
+	ft_printf("cpt dans lit positif%d\n", cpt);
 	lb = data->lb->next;
 	if (cpt == lb->num && data->la->next->num < cpt)
-	{
-		data->la = pb(data);
-		return ;
-	}
-	else if (cpt == lb->num && data->la->next->num < cpt)
 	{
 		data->la = pb(data);
 		return ;

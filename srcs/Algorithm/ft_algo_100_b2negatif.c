@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 11:13:31 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 18:55:59 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 19:29:51 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,12 @@ void	ft_100_swap_manager_negative(t_struct *data, int lit1, int lit2, int chunk)
 	}
 }
 
-int	ft_found_best_place1000(t_struct *data, t_list_b *lb, int nb)
+int	ft_found_best_place1000(t_struct *data, t_list_b *lb)
 {
-	int			cpt;
+	int		cpt;
+	int		nb;
 
+	nb = data->la->next->num;
 	cpt = 1;
 	lb = data->lb->next;
 	ft_printf("je suis dans bestplace\n");
@@ -62,7 +64,7 @@ void	ft_trie_1000_manager(t_struct *data, int chunk, int token)
 	t_list_b	*lb;
 
 	lb = data->lb->next;
-	lbnum = ft_found_best_place1000(data, lb, data->la->next->num);
+	lbnum = ft_found_best_place1000(data, lb);
 	lanum = ft_reduce_managera(data, chunk);
 	len = ft_len_listb(data);
 	ft_printf("len %d, lbnum %d, lanum %d\n", len, lbnum, lanum);

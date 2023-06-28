@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 22:17:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 15:28:25 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 19:28:45 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,7 +114,7 @@ int	ft_best_place_b_mang(t_struct *data, int little)
 	if (j == -1)
 		nb = ft_found_pos_big_lb(data);
 	else
-		nb = ft_found_best_place100(data, data->lb, little);
+		nb = ft_found_best_place100(data, data->lb);
 	return (nb);
 }
 
@@ -151,7 +151,7 @@ int	best_place_manager(t_struct *data, int little)
 	}
 	lb = data->lb->next;
 	if (token == 1)
-		nb = ft_found_best_place100(data, data->lb->next, little);
+		nb = ft_found_best_place100(data, data->lb->next);
 	else
 	{
 		nb = ft_found_big_lb_100(data);

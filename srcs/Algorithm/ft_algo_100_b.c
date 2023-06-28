@@ -6,24 +6,41 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 17:54:12 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 19:45:53 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	ft_found_best_place100(t_struct *data, t_list_b *lb, int nb)
+int	ft_found_best_place100(t_struct *data, t_list_b *lb)
 {
-	int			cpt;
+	int		cpt;
+	int		nb;
 
+	nb = data->la->next->num;
 	cpt = 0;
 	lb = data->lb->next;
-	while (lb && lb->next)
+	ft_printf("nb %d\n", nb);
+	if (lb->num > lb->next->num)
 	{
-		if (lb->num > nb && nb > lb->next->num)
-			return (cpt);
-		cpt++;
-		lb = lb->next;
+		while (lb && lb->next)
+		{
+			if (lb->num > nb && nb > lb->next->num)
+				return (cpt);
+			cpt++;
+			lb = lb->next;
+		}
+	}
+	else if (lb->num < lb->next->num)
+	{
+		ft_printf("je suis dans la nouvelle condition\n");
+		while (lb && lb->next)
+		{
+			cpt++;
+			if (lb->num < nb && nb < lb->next->num)
+				return (cpt);
+			lb = lb->next;
+		}
 	}
 	return (-1);
 }

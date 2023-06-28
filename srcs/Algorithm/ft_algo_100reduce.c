@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 18:25:08 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 17:33:07 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 19:50:33 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,9 @@ int	ft_reduce_managera(t_struct *data, int chunk)
 		lit = ft_found_little_100_75(data, lita2, la);
 	else if (compare == 0)
 		lit = ft_found_little_100_25(data, lita1, chunk);
+	ft_printf("reduct de a lit1 %d, lit2 %d, little %d, compare %d, chunk %d\n", lita1, lita2, lit, compare, chunk);
+	if ((compare == 1 && lita2 > 25) || (compare == 0 && lita1 > 25)) 
+		lit = -1;
 	return (lit);
 }
 
@@ -54,7 +57,7 @@ void	ft_trie_100_manager(t_struct *data, int chunk, int token)
 	t_list_b	*lb;
 
 	lb = data->lb->next;
-	lbnum = ft_found_best_place100(data, lb, data->la->next->num);
+	lbnum = ft_found_best_place100(data, lb);
 	lanum = ft_reduce_managera(data, chunk);
 	len = ft_len_listb(data);
 	ft_printf("len %d, lbnum %d, lanum %d\n", len, lbnum, lanum);

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 18:15:17 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 19:27:54 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -219,7 +219,7 @@ bool		ft_compare_little(t_struct *data, int littlech1, int littlech2);
 int			ft_chunk(t_struct *data, int moyenne, int token);
 int			ft_trie_100_b_little(t_struct *data, int little);
 int			ft_trie_100_b_biggest(t_struct *data, int little);
-int			ft_found_best_place100(t_struct *data, t_list_b *lb, int nb);
+int			ft_found_best_place100(t_struct *data, t_list_b *lb);
 int			ft_take_b_100(t_struct *data, int lit, int token);
 int			ft_take_best_place100(t_struct *data, int chunk);
 void		ft_sort_b100(t_struct *data, int i);
@@ -265,9 +265,8 @@ void		ft_bp_alg100help0(int len, int i, t_struct *data, int nb);
 void		ft_take_best_place1022(t_struct *data, int nb);
 void		ft_best_place_1022_helper(int i, int len, t_struct *data);
 void		ft_trie_1000_manager(t_struct *data, int chunk, int token);
-int			ft_found_best_place1000(t_struct *data, t_list_b *lb, int nb);
 void		ft_best_place_1020help(int i, int len, t_struct *data);
-int			ft_found_best_place1000(t_struct *data, t_list_b *lb, int nb);
+int			ft_found_best_place1000(t_struct *data, t_list_b *lb);
 int			ft_trie_1000_b_little(t_struct *data, int little);
 int			ft_trie_1000_b_biggest(t_struct *data, int little);
 void		ft_take_25_algo1000(t_struct *data, int compare, int little, int chunk);
