@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 15:31:04 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 08:12:04 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 10:25:07 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,21 @@ int ft_parsing_manager(int argc, char **argv)
 	char	**str;
 
 	i = 1;
+	int j = 0;
 	str = NULL;
 	if (ft_parsing_manager_sup(argv) == 0)
 		return (0);
 	str = ft_strlcpy(argv);
+	while (str[i])
+	{
+		while (str[i][j])
+		{
+			ft_printf("%c\n", str[i][j]);
+			j++;
+		}
+		j = 0;
+		i++;
+	}
 	while (argv[i])
 	{
 		if (ft_verif_existing(argc) == 0)

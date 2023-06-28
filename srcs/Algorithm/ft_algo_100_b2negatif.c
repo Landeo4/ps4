@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_algo_100_b2.c                                   :+:      :+:    :+:   */
+/*   ft_algo_100_b2negatif.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/14 16:45:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 11:17:23 by tpotilli         ###   ########.fr       */
+/*   Created: 2023/06/28 11:13:31 by tpotilli          #+#    #+#             */
+/*   Updated: 2023/06/28 11:20:50 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	ft_100_swap_manager(t_struct *data, int lit1, int lit2, int chunk)
+void	ft_100_swap_help0(t_struct *data, int lit1, int lit2, int chunk)
 {
 	int			cpt;
 	t_list_b	*lb;
@@ -22,21 +22,18 @@ void	ft_100_swap_manager(t_struct *data, int lit1, int lit2, int chunk)
 	len = ft_len_listb(data);
 	lb = data->lb->next;
 	ft_printf("lit1 %d, lit2 %d \n", lit1, lit2);
-	if (data->la->next->num < 0)
-		ft_100_swap_manager_negative(data, lit1, lit2, chunk);
 	if (lit1 != -1 && lit2 != -1)
 	{
 		ft_take_best_place100(data, chunk);
 		data->la = pb(data);
-		if (data->lb->next->num < data->lb->next->next->num)
-			data->lb = sb(data->lb, data);
 		return ;
 	}
 	else if (lit1 == -1)
-		ft_100_lit1(lb, data, cpt);
+		ft_100_lit10(lb, data, cpt);
 	else if (lit2 == -1)
-		ft_100_swap_help(data, len, lb);
+		ft_make_best_place_alg100_0(data, data->lb);
 }
+
 
 void	ft_100_lit1(t_list_b *lb, t_struct *data, int cpt)
 {
@@ -65,15 +62,7 @@ void	ft_100_lit1(t_list_b *lb, t_struct *data, int cpt)
 	return ;
 }
 
-void	ft_100_swap_help(t_struct *data, int len, t_list_b *lb)
-{
-	(void)len;
-	ft_make_best_place_alg100(data, lb);
-	data->la = pb(data);
-	return ;
-}
-
-void	ft_make_best_place_alg100(t_struct *data, t_list_b *lb)
+void	ft_make_best_place_alg100_0(t_struct *data, t_list_b *lb)
 {
 	int			nb;
 	int			len;

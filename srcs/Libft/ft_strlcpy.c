@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/25 13:30:32 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 08:05:05 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 10:27:55 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,16 @@ char	**ft_strlcpy(char **src)
 	{
 		while (src[i][j])
 		{
-			dest[i][j] = src[i][j];
+			if (src[i][j] == 22)
+				break;
+			else
+				dest[i][j] = src[i][j];
 			j++;
 		}
 		i++;
 		j = 0;
+		dest[i][j] = '\0';
 	}
-	dest[i][j] = '\0';
+	dest[i] = '\0';
 	return (dest);
 }
