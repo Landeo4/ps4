@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/20 18:25:08 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/27 21:13:21 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 07:27:36 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,94 +61,4 @@ void	ft_trie_100_manager(t_struct *data, int chunk, int token)
 		ft_trie_lb_1(lbnum, len, data, lanum);
 	else
 		ft_trie_la_1(lanum, len, data, lbnum);
-}
-
-void	ft_trie_lb_1(int i, int len, t_struct *data, int nb)
-{
-	len = len / 2;
-	if (i > len)
-	{
-		len = ft_len_listb(data);
-		while (len > i)
-		{
-			if (nb != data->la->next->num)
-				data = rrr(data);
-			else
-				data->lb = rrb(data);
-			i++;
-		}
-	}
-	else if (i < len || i == len)
-		ft_trie_lb_1helper(i, len, data, nb);
-}
-
-void	ft_trie_lb_1helper(int i, int len, t_struct *data, int nb)
-{
-	if (i < len)
-	{
-		while (i > 0)
-		{
-			if (nb != data->la->next->num)
-				data = rr(data);
-			else
-				data->lb = rb(data);
-			i--;
-		}
-	}
-	else if (i == len)
-	{
-		while (i > 0)
-		{
-			if (nb != data->la->next->num)
-				data = rr(data);
-			else
-				data->lb = rb(data);
-			i--;
-		}
-	}
-}
-
-void	ft_trie_la_1(int i, int len, t_struct *data, int nb)
-{
-	len = len / 2;
-	if (i > len)
-	{
-		len = ft_len_lista(data);
-		while (len > i)
-		{
-			if (nb != data->la->next->num)
-				data = rrr(data);
-			else
-				data->la = rra(data);
-			i++;
-		}
-	}
-	else if (i < len || i == len)
-		ft_trie_lb_1helper(i, len, data, nb);
-}
-
-void	ft_trie_la_1helper(int i, int len, t_struct *data, int nb)
-{
-	if (i < len)
-	{
-		while (i > 0)
-		{
-			if (nb != data->la->next->num)
-				data = rr(data);
-			else
-				data->la = ra(data);
-			i--;
-		}
-	}
-	else if (i == len)
-	{
-		while (i > 0)
-		{
-			if (nb != data->la->next->num)
-				data = rr(data);
-			else
-				data->la = ra(data);
-			i--;
-		}
-	}
 }

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/06/28 00:06:55 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 06:59:02 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,4 +32,3 @@ int main(int argc, char **argv)
 	ft_free_lista(&data);
 	ft_free_listb(&data);
 }
-ff
