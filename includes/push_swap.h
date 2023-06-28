@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:47:19 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 07:31:24 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 08:01:29 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -221,7 +221,7 @@ int			ft_trie_100_b_little(t_struct *data, int little);
 int			ft_trie_100_b_biggest(t_struct *data, int little);
 int			ft_found_best_place100(t_struct *data, t_list_b *lb, int nb);
 int			ft_take_b_100(t_struct *data, int lit, int token);
-int			ft_take_best_place100(t_struct *data, int cpt, int chunk);
+int			ft_take_best_place100(t_struct *data, int chunk);
 void		ft_sort_b100(t_struct *data, int i);
 void		ft_take_first_second_algo100(t_struct *data, int compare, int little);
 void		ft_100_swap_manager(t_struct *data, int lit1, int lit2, int chunk);
@@ -255,6 +255,7 @@ int			best_place_manager(t_struct *data, int little);
 int			ft_best_place_b_mang(t_struct *data, int little);
 int			ft_found_pos_big_lb(t_struct *data);
 void		ft_best_place_102help(int i, int len, t_struct *data);
+void		ft_take_25_help(int compare, t_struct *data, int little, int len);
 
 // =======================================================================
 //								algo 500

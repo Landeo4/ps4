@@ -1,7 +1,4 @@
 srcs/main.c: Error!
-Error: SPACE_BEFORE_FUNC    (line:  15, col:   4):	space before function name
-Error: SPACE_REPLACE_TAB    (line:  17, col:  13):	Found space when expecting tab
-Error: MISALIGNED_VAR_DECL  (line:  18, col:   9):	Misaligned variable declaration
 Error: WRONG_SCOPE_COMMENT  (line:  21, col:   5):	Comment is invalid in this scope
 Error: WRONG_SCOPE_COMMENT  (line:  31, col:   5):	Comment is invalid in this scope
 srcs/Libft/ft_putnbr_void.c: OK!
@@ -14,19 +11,12 @@ srcs/Libft/ft_putstr.c: OK!
 srcs/Libft/ft_printf.c: OK!
 srcs/Libft/ft_strlen.c: OK!
 srcs/Libft/ft_putstr_fd.c: OK!
-srcs/Libft/ft_atol.c: Error!
-Error: CONSECUTIVE_NEWLINES (line:  13, col:   1):	Consecutive newlines
-Error: SPACE_REPLACE_TAB    (line:  19, col:   9):	Found space when expecting tab
-Error: MISALIGNED_VAR_DECL  (line:  19, col:  10):	Misaligned variable declaration
-Error: TOO_FEW_TAB          (line:  28, col:   1):	Missing tabs for indent level
+srcs/Libft/ft_atol.c: OK!
 srcs/Libft/ft_putnbr_base.c: OK!
 srcs/Libft/ft_putnbr.c: OK!
-srcs/Libft/ft_atoi.c: Error!
-Error: NO_SPC_BFR_PAR       (line:  37, col:  14):	Extra space before parenthesis (brace/bracket)
-Error: TOO_FEW_TAB          (line:  38, col:   1):	Missing tabs for indent level
+srcs/Libft/ft_atoi.c: OK!
 srcs/Libft/ft_itoa.c: OK!
-srcs/Libft/ft_strlcpy.c: Error!
-Error: MISALIGNED_VAR_DECL  (line:  19, col:   9):	Misaligned variable declaration
+srcs/Libft/ft_strlcpy.c: OK!
 srcs/Parsing/ft_verif_int.c: Error!
 Error: SPACE_BEFORE_FUNC    (line:  15, col:  11):	space before function name
 Error: SPACE_REPLACE_TAB    (line:  17, col:   9):	Found space when expecting tab
@@ -98,10 +88,11 @@ Error: TOO_MANY_LINES       (line:  59, col:   1):	Function has more than 25 lin
 srcs/Algorithm/ft_algo_500.c: OK!
 srcs/Algorithm/ft_algo_manager.c: OK!
 srcs/Algorithm/ft_algo_100_helper2.c: Error!
-Error: TOO_MANY_LINES       (line:  97, col:   1):	Function has more than 25 lines
-Error: TOO_MANY_FUNCS       (line: 130, col:   1):	Too many functions in file
-Error: TOO_MANY_FUNCS       (line: 156, col:   1):	Too many functions in file
-Error: TOO_MANY_FUNCS       (line: 177, col:   1):	Too many functions in file
+Error: TOO_MANY_LINES       (line: 104, col:   1):	Function has more than 25 lines
+Error: TOO_MANY_FUNCS       (line: 120, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 137, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 163, col:   1):	Too many functions in file
+Error: TOO_MANY_FUNCS       (line: 184, col:   1):	Too many functions in file
 srcs/Algorithm/ft_algo_100_trie.c: Error!
 Error: TOO_MANY_TAB         (line: 107, col:   1):	Extra tabs for indent level
 Error: BRACE_SHOULD_EOL     (line: 130, col:   1):	Expected newline after brace

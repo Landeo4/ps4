@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 15:31:04 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/26 11:32:35 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 08:12:04 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@ int	ft_parsing_manager_sup(char **argv)
 
 int ft_parsing_manager(int argc, char **argv)
 {
-	int i;
-	char **str;
+	int		i;
+	char	**str;
 
 	i = 1;
 	str = NULL;
@@ -36,7 +36,7 @@ int ft_parsing_manager(int argc, char **argv)
 	{
 		if (ft_verif_existing(argc) == 0)
 		{
-			ft_printf("please put more than 2 arguments");
+			ft_printf("please put more than 2 arguments\n");
 			return (0);
 		}
 		if (ft_verif_input(str) == 0)
@@ -44,6 +44,7 @@ int ft_parsing_manager(int argc, char **argv)
 			ft_printf("please put just numbers");
 			return (0);
 		}
+		i++;
 	}
 	if (ft_check_var(argv) == 0)
 		return (0);

@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 12:52:13 by tpotillion        #+#    #+#             */
-/*   Updated: 2023/03/22 18:22:03 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 08:04:42 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,9 @@ int	ft_atoi(char *nptr)
 	sign = 1;
 	if (!(nptr))
 		return (0);
-	if (nptr )
-	while ((nptr[i] >= 9 && nptr[i] <= 13) || nptr[i] == ' ')
-		i++;
+	if (nptr)
+		while ((nptr[i] >= 9 && nptr[i] <= 13) || nptr[i] == ' ')
+			i++;
 	if (nptr[i] == '-')
 	{
 		sign *= -1;

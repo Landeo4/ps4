@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/25 13:30:32 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/26 11:59:54 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 08:05:05 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	**ft_strlcpy(char **src)
 {
-	size_t	j;
-	char	**dest;
-	int	i;
+	size_t		j;
+	char		**dest;
+	int			i;
 
 	i = 0;
 	j = 0;

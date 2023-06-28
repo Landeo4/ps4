@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 15:29:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/06/28 07:32:27 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 08:00:47 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,6 +97,6 @@ void	ft_best_place_102_helper(int i, int len, t_struct *data)
 		}
 	}
 	else
-		ft_best_place_102_help(i, len, data);
+		ft_best_place_102help(i, len, data);
 }
 

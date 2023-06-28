@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 09:45:40 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/26 11:24:10 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 08:10:28 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,6 @@ int	ft_gui_check(char **argv)
 			{
 				if (ft_verif_input(argv) == 0)
 					return (0);
-				ft_printf("yo");
 				j++;
 			}
 		}

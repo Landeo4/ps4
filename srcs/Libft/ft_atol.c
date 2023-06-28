@@ -6,18 +6,17 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/13 16:27:36 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/03/14 15:22:52 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 08:04:11 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "push_swap.h"
 
 long	ft_atol(char *nptr)
 {
-	int	i;
-	long result;
-	int	sign;
+	int		i;
+	long	result;
+	int		sign;
 
 	i = 0;
 	result = 0;
@@ -25,7 +24,7 @@ long	ft_atol(char *nptr)
 	if (!(nptr))
 		return (0);
 	if (nptr)
-	while ((nptr[i] >= 9 && nptr[i] <= 13) || nptr[i] == ' ')
+		while ((nptr[i] >= 9 && nptr[i] <= 13) || nptr[i] == ' ')
 		i++;
 	if (nptr[i] == '-')
 	{

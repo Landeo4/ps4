@@ -6,21 +6,21 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:14:19 by tpotilli@st       #+#    #+#             */
-/*   Updated: 2023/06/28 06:59:02 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 08:07:12 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-	t_struct data;
-	int	i;
+	t_struct	data;
+	int			i;
 
 	i = argc - 1;
-	/*if (ft_parsing_manager(argc, argv) == 0)
+	if (ft_parsing_manager(argc, argv) == 0)
 		return (0);
-	ft_printf("c'est bon pour les guillemet");*/
+	ft_printf("c'est bon pour les guillemet");
 	ft_init_struct(&data);
 	while (i > 0)
 	{

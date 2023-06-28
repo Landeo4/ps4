@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 14:39:00 by tpotilli          #+#    #+#             */
-/*   Updated: 2023/04/25 16:58:00 by tpotilli         ###   ########.fr       */
+/*   Updated: 2023/06/28 08:18:28 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,7 @@ bool ft_verif_input(char **argv)
 		while (argv[i][j])
 		{
 			if (argv[i][j] == ' ')
-			{
 				break ;
-			}
 			else if (!(ft_isdigit(argv[i][j]) == 1))
 				return (0);
 			j++;
